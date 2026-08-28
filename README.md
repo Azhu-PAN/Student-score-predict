@@ -1,8 +1,17 @@
 # Student Score Prediction
 
-**ECON5403 Group Assignment** - Group 3
 
-Predicting student math and reading scores based on school and teacher characteristics using machine learning models.
+Project STAR (Student/Teacher Achievement Ratio) was a randomised experiment 
+conducted in Tennessee from 1985 to 1989. The study assigned K–3 students to either small 
+classes (about 15 students) or regular classes (around 22 students) across 79 schools. STAR 
+demonstrated that classroom environments – including class size, teacher quality, and peer 
+composition – have a significant impact on early test performance and are strongly correlated 
+with long-term outcomes such as college attendance and earnings.
+Building on this foundation, our project uses a cross-section of 4,588 kindergarten students
+(after removing NAs) to develop models predicting student’s reading and mathematics
+scores. By exploring a range of econometric and machine learning predictive models, we aim 
+to identify the models and variables that best forecast student performance and, in turn, help 
+inform strategies for improving educational outcomes.
 
 ## 📁 Project Structure
 
@@ -34,7 +43,7 @@ pip install -r requirements.txt
 
 ## 📊 Models Used
 
-- **OLS Regression** (baseline)
+- **OLS Regression**:  linear and non-linear 
 - **Regularization**: Ridge, Lasso, Elastic Net
 - **Tree-based**: Random Forest, Bagging, Gradient Boosting
 - **Neural Network**: Multi-layer Perceptron (MLP)
@@ -50,7 +59,7 @@ pip install -r requirements.txt
 
 ## 👥 Group Members
 
-Group 3
+Regina Pan | Callum Hudson | Luke Wynd | Nather Truong 
 
 ## 📝 License
 
